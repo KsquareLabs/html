@@ -41,4 +41,7 @@ about commiting the changes and finally push them into your forked repository.
   When the `GET` is already working create a new branch that will change to a `POST` method, this branch should be also
   push to the forked repository, finally discuss the differences between both methods, using the readme file of this
   exercise.
+  
+  <p> GET: request the data</p>
+  <p> POST: Push the data</p>
 
