@@ -42,3 +42,8 @@ about commiting the changes and finally push them into your forked repository.
   push to the forked repository, finally discuss the differences between both methods, using the readme file of this
   exercise.
 
+<div id="answers">
+  <p>GET vs POST Methods.<br>
+        GET allows the form to gather data from a the input the elements in a page while POST uses that data<br>
+        to do things with it (put it into a database, email it, etc.)
+  </p>
