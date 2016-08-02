@@ -13,15 +13,15 @@
       </label>
       <label for "last_name">
         Last Name:
-        <input id ="last_name" type="textbox"required>
+        <input id ="last_name" name="lastname" type="textbox"required>
       </label><br>
       <label for "date_of_birth">
         Date of Birth:
-        <input id="DoB" type="calender" required>
+        <input id="DoB" type="date" name="DOB" autocomplete="bday"required>
       </label>
       <label for ="age">
         Age:
-        <input id ="age" type ="number" min ="1" max = "100" required>
+        <input id ="age" type ="number" name ="age" min ="1" max = "100" required>
       </label><br>
       <label for ="gender">
         Gender:
@@ -30,7 +30,7 @@
       </label><br>
       <label for ="email"required/>
         Email:
-          <input type="email" id="email"required>
+          <input type="email" id="email" name="emailac" required>
       </label><br>
 
       <input type="submit">
