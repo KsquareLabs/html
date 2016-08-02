@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>user form</title>
+  </head>
+  <body>
+<!-- form -->
+    <form action="http://google.com" method="GET">
+      <label for "first_name">
+        First Name:
+        <input id ="first_name" name="firstname" type="textbox" required>
+      </label>
+      <label for "last_name">
+        Last Name:
+        <input id ="last_name" type="textbox"required>
+      </label><br>
+      <label for "date_of_birth">
+        Date of Birth:
+        <input id="DoB" type="calender" required>
+      </label>
+      <label for ="age">
+        Age:
+        <input id ="age" type ="number" min ="1" max = "100" required>
+      </label><br>
+      <label for ="gender">
+        Gender:
+        <input type="radio" name="gender" id ="gender" value ="male" required>Male
+        <input type="radio" name="gender" id="gender" value ="female"required>Female
+      </label><br>
+      <label for ="email"required/>
+        Email:
+          <input type="email" id="email"required>
+      </label><br>
+
+      <input type="submit">
+    </form>
+    <div id ="problem">
+      <p>
+        Create a &ltform&gt element that will ask to the user and will submit to www.google.com using GET method:<br>
+        1. Name (textbox)<br>
+        2. Last Name (textbox)<br>
+        3. Birth Date (calendar)<br>
+        4. Age (range)<br>
+        5. Sex (option or radiobutton)<br>
+        6. Email<br>
+        7. Submit button<br>
+        <br>
+        All of the input should be required and validated before submitted, and should have a proper label attached to it.
+        Don't forget to commit all changes.<br>
+        <br>
+        When the GET is already working create a new branch that will change to a POST method, this branch should be also push to<br>
+        the forked repository, finally discuss the differences between both methods, using the readme file of this exercise.<br>
+      </p>
+    </div>
+    <div id ="answers">
+      <p>
+        GET vs POST Methods.<br>
+        GET allows the form to gather data from a the input the elements in a page while POST uses that data<br>
+        to do things with it (put it into a database, email it, etc.)
+      </p>
+    </div>
+  </body>
+</html>
