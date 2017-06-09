@@ -1,18 +1,18 @@
 # HTML
 HTML
 
-HTML stands for “HyperText Markup Language”. This could sound scary but it simply means it is a language for describing web-pages using ordinary text. 
-A regular HTML file is just a set of “tags” as a plain-text file but with a .html file extension instead of the .txt .
+HTML stands for “HyperText Markup Language”. This could sound scary, but it simply means that it is a language for describing web-pages using ordinary text. 
+A regular HTML file is just a set of “tags” as a plain-text file, but with a .html file extension instead of the .txt .
 
 ##Basic Structure.
-Each HTML file need to have some essential tags in order to work properly those are:
+Each HTML file need to have some essential tags in order to work properly. Those are:
 
-* `<doctype>`: This allow the browser to detect the HTML version that we are currently, this is like a link to rules that                html pages had to follow to be considered good HTML.
-* `<html>`: represent the root of an HTML document. All other elements must be descendants of this elements.
+* `<doctype>`: This allows the browser to detect the HTML version that we are using currently. This is like a link to rules that                html pages need to follow to be considered good HTML.
+* `<html>`: Represents the root of an HTML document. All other elements must be descendants of this element.
 * `<head>`: This element provides general information (metadata) about the document, including its title and links to its             scripts and stylesheets. 
-* `<title>`: This tag allow the developer to determine the title of the page, this title is going to be show as title of                the browser tab.
-* `<meta>`: Elements represent any metadata information that cannot be represented by one of the other HTML meta related              elements.
-* `<body>`: This element represents the content of an HTML document. There can be only one <body> element in a document.
+* `<title>`: This tag allows the developer to determine the title of the page. This title is going to be shown as title of                the browser tab.
+* `<meta>`: This element represents any metadata information that cannot be represented by one of the other HTML meta related              elements.
+* `<body>`: This element represents the content of an HTML document. There can be only one `<body>` element in a document.
 
 ##Example
 
